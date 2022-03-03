@@ -1,0 +1,17 @@
+{
+  "id": 2,
+  "nameKor": "나이트로 콜드 브루",
+  "nameEng": "Nitro Cold Brew",
+  "description": "나이트로 커피 정통의 캐스케이딩과 부드러운 콜드 크레마!\n부드러운 목 넘김과 완벽한 밸런스에 커피 본연의 단맛을 경험할 수 있습니다.",
+  "nutrition": {
+    "kcal": 5,
+    "fat": 0,
+    "protein": 0,
+    "natrium": 5,
+    "sugar": 0,
+    "caffeine": 245 
+  },
+  "allergy": ["없음"],
+  "comments": [{"nickname": "", "content": ""}],
+  "imgUrl": "../images/example.jpg"
+}

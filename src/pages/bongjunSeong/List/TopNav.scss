@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f6f5f0;
+  border: 0px;
+  border-radius: 3px;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+}
+
+.nav {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    li {
+      font-size: 14px;
+      color: gray;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px 10px;
+    }
+  }
+}
