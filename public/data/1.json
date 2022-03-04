@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "nameKor": "나이트로 바닐라 크림",
+  "nameEng": "Nitro Vanilla Cream",
+  "description": "부드러운 목넘김의 나이트로 커피와 바닐라 크림의 매력을 한번에 느껴보세요!",
+  "nutrition": {
+    "kcal": 80,
+    "fat": 2,
+    "protein": 1,
+    "natrium": 40,
+    "sugar": 10,
+    "caffeine": 232
+  },
+  "allergy": ["우유"],
+  "comments": [{"nickname": "", "content": ""}],
+  "imgUrl": "../images/example.jpg"
+}

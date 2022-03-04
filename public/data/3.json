@@ -1,0 +1,17 @@
+{
+  "id": 3,
+  "nameKor": "돌체 콜드 브루",
+  "nameEng": "Dolce Cold Brew",
+  "description": "무더운 여름철,\n동남아 휴가지에서 즐기는 커피를 떠오르게 하는\n스타벅스 음료의 베스트 x 베스트 조합인\n돌체 콜드 브루를 만나보세요!",
+  "nutrition": {
+    "kcal": 265,
+    "fat": 9,
+    "protein": 8,
+    "natrium": 130,
+    "sugar": 29,
+    "caffeine": 150 
+  },
+  "allergy": ["우유"],
+  "comments": [{"nickname": "", "content": ""}],
+  "imgUrl": "../images/example.jpg"
+}

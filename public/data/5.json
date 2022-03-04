@@ -1,0 +1,17 @@
+{
+  "id": 5,
+  "nameKor": "벨벳 다크 모카 나이트로",
+  "nameEng": "Velvet Dark Mocha Nitro",
+  "description": "다크 초콜릿 모카의 진한 바디감과 함께\n헤이즐넛 향과 달콤한 카라멜 크림 폼으로\n벨벳같은 부드러움까지 살린 리저브 나이트로 커피",
+  "nutrition": {
+    "kcal": 150,
+    "fat": 6,
+    "protein": 2,
+    "natrium": 15,
+    "sugar": 17,
+    "caffeine": 190
+  },
+  "allergy": ["우유"],
+  "comments": [{"nickname": "", "content": ""}],
+  "imgUrl": "../images/example.jpg"
+}
