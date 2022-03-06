@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeefef;
+}
+
 .login-container {
   display: flex;
   justify-content: center;
