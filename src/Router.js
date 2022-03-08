@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import DetailSeoungwoo from './pages/seoungwooMa/Detail/Detail';
 
 import LoginBongjun from './pages/bongjunSeong/Login/Login';
-import MainBongjun from './pages/bongjunSeong/Main/Main';
+// import MainBongjun from './pages/bongjunSeong/Main/Main';
 import ListBongjun from './pages/bongjunSeong/List/List';
 import DetailBongjun from './pages/bongjunSeong/Detail/Detail';
 
@@ -41,7 +41,7 @@ function Router() {
         <Route path="/detail-seoungwoo" element={<DetailSeoungwoo />} /> */}
 
         <Route path="/login-bongjun" element={<LoginBongjun />} />
-        <Route path="/main-bongjun" element={<MainBongjun />} />
+        {/* <Route path="/main-bongjun" element={<MainBongjun />} /> */}
         <Route path="/list-bongjun" element={<ListBongjun />} />
         <Route path="/detail-bongjun" element={<DetailBongjun />} />
 

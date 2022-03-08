@@ -9,16 +9,48 @@ function Login() {
 
   const handleIdInput = e => {
     setIdState(e.target.value);
+    console.log(idState);
   };
 
   const handlePwInput = e => {
     setPwState(e.target.value);
+    console.log(pwState);
   };
 
   const changeColor = () => {
     idState.includes('@') && pwState.length >= 5
       ? changeVisible('active')
       : changeVisible('disable');
+  };
+
+  const handleSignUp = () => {
+    fetch('/users/signup', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: idState,
+        password: pwState,
+      }),
+    })
+      .then(res => res.json())
+      .then(result => console.log(result));
+  };
+
+  const handleLogin = () => {
+    fetch('/users/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: idState,
+        password: pwState,
+      }),
+    })
+      .then(res => res.json())
+      .then(result => console.log(result));
   };
 
   return (
@@ -47,9 +79,14 @@ function Login() {
           <i id="eyeButton" className="fa-solid fa-eye-slash fa-sm" />
         </div>
         <div className="logInBtn">
-          <Link to="/list-bongjun">
-            <button className={visible}>로그인</button>
+          <Link to="#">
+            <button className={visible} onClick={handleLogin}>
+              로그인
+            </button>
           </Link>
+        </div>
+        <div className="signUp" onClick={handleSignUp}>
+          회원가입
         </div>
         <div className="lostPw">비밀번호를 잊으셨나요?</div>
       </section>
