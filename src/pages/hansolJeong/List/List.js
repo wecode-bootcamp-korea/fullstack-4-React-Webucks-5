@@ -15,7 +15,7 @@ function List() {
   }, []);
 
   return (
-    <div>
+    <div className="list-wrap">
       <header>
         <h1 className="logo">Webucks</h1>
         <nav className="nav">
