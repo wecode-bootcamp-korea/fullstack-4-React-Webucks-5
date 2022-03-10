@@ -27,7 +27,7 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className="wrap">
       <section className="login-container">
         <div className="logo">Webucks</div>
         <div className="loginForm" action="./list.html">
@@ -51,7 +51,8 @@ function Login() {
 
           {/* 로그인 버튼 */}
           <button
-            className="login-btn"
+            // 버튼 비활성화 되면 disabled 클래스가 추가되어 버튼 흐리게
+            className={`login-btn ${isValidButton ? '' : 'disabled'}`}
             disabled={!isValidButton}
             onClick={() => {
               goToList();
@@ -60,8 +61,9 @@ function Login() {
             로그인
           </button>
 
-          {/* <div className='forgot-pw'>비밀번호를 잊으셨나요?</div> */}
-          <Link to="/signup">비밀번호를 잊으셨나요?</Link>
+          <Link to="/signup" className="forgot-pw">
+            비밀번호를 잊으셨나요?
+          </Link>
         </div>
       </section>
     </div>
