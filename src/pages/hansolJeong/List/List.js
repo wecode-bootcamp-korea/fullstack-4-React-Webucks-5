@@ -4,8 +4,10 @@ import React, { useEffect, useState } from 'react';
 import CoffeeCard from './CoffeeCard';
 
 function List() {
+  // coffeeList 목데이터를 불러오기 위한 state
   const [coffeeList, setCoffeeList] = useState([]);
 
+  // 목데이터 불러오기
   useEffect(() => {
     fetch('/data/coffeeList.json')
       .then(res => res.json())

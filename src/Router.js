@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LoginHansol from './pages/hansolJeong/Login/Login';
 // import MainHansol from './pages/hansolJeong/Main/Main';
 import ListHansol from './pages/hansolJeong/List/List';
-// import DetailHansol from './pages/hansolJeong/Detail/Detail';
+import DetailHansol from './pages/hansolJeong/Detail/Detail';
 
 // import LoginSeoungwoo from './pages/seoungwooMa/Login/Login';
 // import MainSeoungwoo from './pages/seoungwooMa/Main/Main';
@@ -33,7 +33,7 @@ function Router() {
         <Route path="/login-hansol" element={<LoginHansol />} />
         {/* <Route path="/main-hansol" element={<MainHansol />} /> */}
         <Route path="/list-hansol" element={<ListHansol />} />
-        {/* <Route path="/detail-hansol" element={<DetailHansol />} /> */}
+        <Route path="/detail-hansol" element={<DetailHansol />} />
 
         {/* <Route path="/login-seoungwoo" element={<LoginSeoungwoo />} />
         <Route path="/main-seoungwoo" element={<MainSeoungwoo />} />
